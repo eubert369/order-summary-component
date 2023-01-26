@@ -1,0 +1,94 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+}
+
+.card {
+    width: 300px;
+}
+
+h5 {
+    font-weight: 900;
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.card-text {
+    color: hsl(224, 23%, 55%);
+}
+
+#plan-content {
+    background-color: hsl(225, 100%, 98%);
+    height: 50px;
+}
+
+#music-icon {
+    width: 30px;
+}
+
+#price {
+    margin-top: -8px;
+    color: hsl(224, 23%, 55%);
+}
+
+#payment {
+    background-color: hsl(245, 75%, 52%);
+}
+
+#payment:hover {
+    opacity: 0.8;
+}
+
+#cancel {
+    color: hsl(224, 23%, 55%);
+}
+
+#cancel:hover {
+    color: black;
+}
+
+#change {
+    font-size: 12px;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+#change:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.btn {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url("images/pattern-background-mobile.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
